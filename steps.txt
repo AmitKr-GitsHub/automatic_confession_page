@@ -1,16 +1,16 @@
 steps:
 cd 
 create the virtual folder
-(base) D:\New folder\IGIDR_Confession_System\confession_system>python -m venv venv   
+(base) D:\New folder\Confession_System\confession_system>python -m venv venv   
 
 Activating the venv enviroment
-(base) D:\New folder\IGIDR_Confession_System\confession_system\venv>Scripts\activate
+(base) D:\New folder\Confession_System\confession_system\venv>Scripts\activate
 \venv\Activate\scripts
 pip install vader
 pip install python-dotenv
 
 pip install vaderSentiment
-nltk.download('words', download_dir='D:\IGIDR_Confession_System\confession_system')
+nltk.download('words', download_dir='D:\Confession_System\confession_system')
 python down_nltk.py 
 
 Installing microsoft build wheel 
@@ -20,4 +20,5 @@ Now installing the the requirment file?
 pip install -r requirements.txt
 
 https://github.com/cloudflare/cloudflared/releases
-D:\New folder\IGIDR_Confession_System\cloudflared.exe tunnel --url http://localhost:7000
+
+D:\New folder\cloudflared.exe tunnel --url http://localhost:7000
