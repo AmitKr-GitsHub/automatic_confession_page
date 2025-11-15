@@ -1,0 +1,15 @@
+Flask
+requests
+textblob
+Werkzeug
+Jinja2
+MarkupSafe
+itsdangerous
+click
+blinker
+nltk
+Pillow
+instagrapi
+vaderSentiment
+nltk
+dotenv
