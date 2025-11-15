@@ -47,7 +47,7 @@ A Flask-based anonymous confession system with automated content moderation, Ins
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/igidr-confession-system.git
+git clone https://github.com/AmitKr-GitsHub/igidr-confession-system.git
 cd igidr-confession-system
 ```
 
@@ -483,7 +483,7 @@ git init
 git add .
 
 # Initial commit
-git commit -m "Initial commit: IGIDR Confession System
+git commit -m "Initial commit: Automatic Confession System
 
 - Flask-based confession platform
 - Automated content moderation
